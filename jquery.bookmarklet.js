@@ -23,7 +23,7 @@
 
 
                 // wipe
-                ctx.clearRect(0, 0, document.width, document.height);
+                ctx.clearRect(0, 0, $(document).width(), $(document).height());
                 if (e.clientY < h*3) return;
                 // line
                 ctx.beginPath();
@@ -49,8 +49,8 @@
                 'z-index': 1000,
                 'pointer-events': 'none'
             }).appendTo('body').get(0);
-            canvas.height = document.height;
-            canvas.width = document.width;
+            canvas.height = $(document).height();
+            canvas.width = $(document).width();
             var ctx = canvas.getContext('2d');
 
             // comput style options
