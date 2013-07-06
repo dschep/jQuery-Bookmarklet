@@ -4,6 +4,7 @@
         var lw = 3;
         var pos = 150;
         var color = '#ffa500'
+        var zindex = 1000;
         // optionally override defaults
         if (options !== undefined) {
             if (options.lw !== undefined)
@@ -12,6 +13,8 @@
                 pos = options.pos
             if (options.color !== undefined)
                 color = options.color
+            if (options.zindex !== undefined)
+                zindex = options.zindex
         }
 
         this.click(function() {return false;})
@@ -46,7 +49,7 @@
                 position: 'fixed',
                 top: 0,
                 left: 0,
-                'z-index': 1000,
+                'z-index': zindex,
                 'pointer-events': 'none'
             }).appendTo('body').get(0);
             canvas.height = $(document).height();
