@@ -1,0 +1,11 @@
+{
+    "author": {
+        "name": "Daniel Schep"
+    },
+    "name": "jquery-bookmarklet",
+    "version": "1.0.0",
+    "main": "./jquery.bookmarklet.js",
+    "dependencies": {
+        "jquery": "latest"
+    }
+}
