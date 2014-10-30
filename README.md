@@ -10,3 +10,7 @@ An object can be passed in to customize the appearance of the arrow.
 The options available are color, position and linewidth
 
     $('a').bookmarklet({color: 'ff0000', position: 300, linewidth: 5})
+
+
+## Demo!
+You can see the plugin in action here: https://dschep.github.io/GistMarklets/
