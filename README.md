@@ -1,6 +1,6 @@
 # jQuery Bookmarlet Helper
 
-This is a little plugin to make installing bookmarklets more understandable to ludites.
+This is a little plugin to make installing bookmarklets easier.
 
     $('a.bookmarklet').bookmarklet();
 
